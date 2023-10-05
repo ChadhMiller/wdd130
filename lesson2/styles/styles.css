@@ -1,3 +1,27 @@
+img {
+    /* changes the size of the image*/
+    width: 80%;
+    /* these two commands will center the image on the page */
+    display: block;
+    margin: 0 auto;
+    /* margin: 1rem auto; it will give one line of text above and below img */
+}
+/* text-decoration: none; will remove underline from link */
+p {
+    width: 80%
+}
+
+a {
+    /*relative is the better option*/
+    font-size: 1.5em;
+    /* font-size: 24px */
+}
+
+nav{
+    /* this changes the height of the view port */
+    height: 20vh;
+}
+
 body {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,6 +39,7 @@ a {
 }
 
 h1 {
+    text-align: center;
     color: steelblue;
 }
 
@@ -27,7 +52,8 @@ p {
     padding: 10px;
 }
 
-footer {
+footer p{
+    text-align: center;
     background-color: steelblue;
     color: white;
 }
