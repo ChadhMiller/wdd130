@@ -21,10 +21,6 @@ body{
     padding-top: 10px;
 }
 
-/* .social{
-    width: 20px;
-} */
-
 .logo{
     width: 80px;
 }
@@ -236,6 +232,19 @@ nav {
     margin-top: 100px;
 }
 
+/* Blog Page */
+.blog-main{
+    max-width: 600px;
+    margin: auto;
+}
+
+.blog-post{
+    background-color: hotpink; /*#77A6B6*/
+    color: #004489;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: .5rem 0;
+}
 
 /* Leave the media query at the very bottom */
 @media screen and (max-width: 900px) {
