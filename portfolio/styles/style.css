@@ -37,7 +37,7 @@ nav a:hover {
 }
 
 #content {
-    max-width: 1600px;
+    max-width: 85%;
     margin: 0 auto;
 }
 
@@ -59,7 +59,6 @@ main section {
 }
 
 .card-img {
-    /* border: 10px solid black; */
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -100,9 +99,9 @@ footer .social img {
 
 .post {
     background-color: #E5F2C9;
-    /* background-color: #043645; */
+    background-color: #11806a;
     color: #7F534B;
     border-radius: 10px;
     padding: 1rem;
-    margin: .5rem 0;
+    margin: 1rem 0;
 }
