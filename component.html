@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordian Component</title>
+    <link rel="stylesheet" href="component-styles.css">
+</head>
+
+<body>
+    <h1>Jokes</h1>
+    <button class="accordion">Knock Knock Joke</button>
+    <div class="panel">
+        <p>Knock, knock.
+            Who’s there?
+            Ice cream.
+            Ice cream who?
+            ICE CREAM SO YOU CAN HEAR ME!</p>
+    </div>
+
+    <button class="accordion">Font Joke</button>
+    <div class="panel">
+        <p>Helvetica and Times New Roman walk into a bar.
+            “Get out of here!” shouts the bartender. “We don’t serve your type.”</p>
+    </div>
+
+    <button class="accordion">Hipster Joke</button>
+    <div class="panel">
+        <p>How do you drown a hipster?
+            Throw him in the mainstream.</p>
+    </div>
+
+    <button class="accordion">Calculus Joke</button>
+    <div class="panel">
+        <p>Why don’t Calculus majors throw house parties?
+            Because you should never drink and derive.</p>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
