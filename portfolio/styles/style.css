@@ -37,7 +37,7 @@ nav a:hover {
 }
 
 #content {
-    max-width: 85%;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -55,10 +55,11 @@ h2 {
 }
 
 main section {
-    text-align: center;
+    text-align: wrap;
 }
 
 .card-img {
+    float: right;
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -93,7 +94,7 @@ footer .social img {
 }
 
 .home-page {
-    max-width: 1000px;
+    max-width: 85%;
     margin: auto;
 }
 
