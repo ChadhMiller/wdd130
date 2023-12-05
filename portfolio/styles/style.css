@@ -1,7 +1,7 @@
 /* Home page */
 header {
     background-color: #E5F2C9;
-    color: #6b3f38;
+    color: #5e241b;
     display: grid;
     grid-template-columns: 150px auto;
 }
