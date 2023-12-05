@@ -16,7 +16,6 @@ nav a {
     text-align: center;
     text-decoration: none;
     padding: 35px;
-    z-index: 1;
 }
 
 nav a:hover {
@@ -33,7 +32,6 @@ nav a:hover {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
-    z-index: 1;
 }
 
 #content {
@@ -53,10 +51,6 @@ body {
 h2 {
     margin: 0;
 }
-
-/* main section {
-    text-align: wrap;
-} */
 
 .card-img {
     float: right;
@@ -80,8 +74,10 @@ footer {
 }
 
 footer p a:hover {
+    background-color: white;
     color: #5e241b;
-    text-decoration: underline;
+    text-decoration: none;
+    padding: 35px;
 }
 
 footer p {
@@ -99,7 +95,7 @@ footer .social img {
 }
 
 .post {
-    background-color: #E5F2C9;
+    /* background-color: #E5F2C9; */
     background-color: #11806a;
     color: #5e241b;
     border-radius: 10px;
