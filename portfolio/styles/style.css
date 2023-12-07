@@ -43,7 +43,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
     background-color: #374618;
-    color: #ffc786;
+    color: #ffd29f;
     margin: 0;
     padding: 0;
 }
@@ -97,7 +97,7 @@ footer .social img {
 .post {
     background-color: #374618;
     background-color: #227867;
-    color: #ffc786;
+    color: #ffd29f;
     border-radius: 10px;
     padding: 1rem;
     margin: 1rem 0;
